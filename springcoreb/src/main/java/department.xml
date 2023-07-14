@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:p="http://www.springframework.org/schema/p"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+   
+	<bean class="com.springcoreb.Department" name="deparment1"
+		p:departmentId="123456" p:departmentName="MechanicalEngeer"
+		p:departmentAddress="Near Powai PlotNo61" />
+	<bean class="com.springcoreb.Department" name="deparment2"
+		p:departmentId="1234564566" p:departmentName="CivilEngeer"
+		p:departmentAddress="Near Powai Second PlotNo601" />
+
+
+</beans>
